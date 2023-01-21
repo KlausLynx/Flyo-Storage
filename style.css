@@ -220,7 +220,7 @@ strong {
   @media screen and (max-width: 1568px) {
     body {
       background-image: url(./images/bg-mobile.png);
-      background-repeat:repeat-y;
+      background-repeat:repeat;
       background-position: center;
       background-size: 350%;
       min-width: 609px;
