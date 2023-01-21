@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Frontend Mentor | Fylo data storage component</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Fylo data storage component master</title>
+    <link rel="icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-      <section class="logoandimages">
-          <div class="img">
-              <img src="logo.svg" alt="logo fylo" class="logofylo">
-          </div>
-          <div class="images">
-              <img src="icon-document.svg" alt="icon of document" class="icondocument">
-              <img src="icon-folder.svg" alt="icon folder" class="iconfolder">
-              <img src="icon-upload.svg" alt="icon upload" class="iconupload">
-  
-          </div>
-      </section>
-      <section class="download">
-          <h1 class="downloadp">You've used <strong>815gb</strong> of your storage</h1>
-          <div class="relative">
-              <div class="remain_box">185 <span class="subtext">GB Left</span></div>
-          </div>
-          <div class="outer_bar">
-              <div class="inner_bar">
-                  <div class="ball"></div>
-              </div>
-          </div>
-          <div class="infodownload">
-              <p>0 GB</p>
-              <p>1000 GB</p>
-          </div>
-      </section>
+    <main class="outer__cont">
+        <section class="inner__cont">
+            <section class="logoandimages">
+                <div class="fig__img">
+                    <img src="./images/logo.svg" alt="Fylo logo" class="logoflyo">
+                </div>
+                <div class="images">
+                    <img src="./images/icon-document.svg" alt="Doc icon" class="img__icon">
+                    <img src="./images/icon-folder.svg" alt="Folder icon" class="img__icon">
+                    <img src="./images/icon-upload.svg" alt="Upload icon" class="img__icon">
+                </div>
+            </section>
+            <section class="storage">
+                <h1>You've used <strong><i>815</i></strong> GB of your storage</h1>
+                <div class="left__storage">
+                    <p class="bold">185 <span class="subtext">GB left</span></p>
+                </div>
+                <div class="outer__bar">
+                    <div class="inner__bar">
+                        <div class="ball"></div>
+                    </div>
+                </div>
+                <div class="main__storage">
+                    <p>0 GB</p>
+                    <p>1000 GB</p>
+                </div>
+            </section>
+        </section>
     </main>
+    <footer>
+        <div class="attribution">
+            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="mentor">Frontend Mentor</a></p>
+            <p>Coded by <a href="#" class="mentor2">Klaus_lynx</a></p>
+        </div>
+    </footer>
 </body>
 </html>
